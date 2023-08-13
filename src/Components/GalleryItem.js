@@ -11,7 +11,9 @@ function GalleryItem(props) {
         'backgroundImage': `url(${props.item.artworkUrl100})`,
         'backgroundRepeat' : 'no-repeat',
         'backgroundSize' : 'cover',
-        'fontFamily' : 'Courier New'
+        'fontFamily' : 'Courier New',
+        'borderRadius' : '30%',
+        'overflow' : 'auto'
     }
     
     const detailStyle = {
@@ -22,6 +24,7 @@ function GalleryItem(props) {
         'backgroundImage': `url(${props.item.artworkUrl100})`,
         'backgroundRepeat': 'no-repeat',
         'backgroundSize': 'cover',
+        'overflow' : 'auto',
         'color': 'yellow'
     }
     
