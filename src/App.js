@@ -3,7 +3,6 @@ import Gallery from './Components/Gallery'
 import SearchBar from './Components/SearchBar'
 import './App.css';
 
-
 const App = () => {
   let [search, setSearch] = useState('')
   let [message, setMessage] = useState('Search for Music!')
